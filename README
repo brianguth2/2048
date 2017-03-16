@@ -1,0 +1,42 @@
+Name: Brian Guthrie
+Login: cs8bwany
+Date: 3/3/2016
+File: README
+
+Vim Related Questions:
+
+1. Use ":%s/fun/amazing/g" in command mode to change every word in file
+   Use ":s/fun/amazing/g" in command mode to change word in line
+
+Unix/Linux Related Questions:
+
+2. mkdir -p /fooDir/barDir
+
+3. For list you can use "ls *.html" for it to list every html file
+
+4. gvim -p *.java
+
+Java Related Questions:
+
+5. static means that the method is available for the whole class. You do not
+    need to create an instance for it.
+    
+    public class Foo(){
+        public static void mystery(){
+        //blah
+        }
+    }
+    you can call Foo.mystery rather than
+    Foo this =  new Foo();
+    this.mystery
+
+6. In your ShapeDrawer class, you create an object that is of the form
+    ShapeDrawer. So whenever you want to create one, reference it as that
+    also in this way:
+    ShapeDrawer circle = new ShapeDrawer();
+    This way, you are referencing your variable "circle" as an object from
+    the type of your class ShapeDrawer.
+    Next, since it is an object of your class and given that your class has
+    the method drawRedCircle(), this means that your ShapeDrawer object
+    (named "circle") can use this method that you created to draw a red
+    circle!
